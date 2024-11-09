@@ -19,6 +19,7 @@
   }
 
   &__image {
+    aspect-ratio: 1/1;
     border-radius: $border-radius-0_5;
     cursor: pointer;
     display: block;

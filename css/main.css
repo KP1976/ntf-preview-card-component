@@ -190,6 +190,7 @@ main {
   opacity: 1;
 }
 .ntf-card__image {
+  aspect-ratio: 1/1;
   border-radius: 0.5rem;
   cursor: pointer;
   display: block;
