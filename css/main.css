@@ -178,6 +178,12 @@ main {
   max-width: 21.875rem;
   padding: 1.5rem;
 }
+.ntf-card__image {
+  border-radius: 0.5rem;
+  display: block;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
 
 .attribution {
   bottom: 0;

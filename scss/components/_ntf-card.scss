@@ -5,4 +5,10 @@
   @include flex-column($space-1_5);
   max-width: 21.875rem;
   padding: $space-1_5;
+
+  &__image {
+    border-radius: $border-radius-0_5;
+    display: block;
+    object-fit: cover;
+  }
 }
