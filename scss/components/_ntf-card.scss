@@ -26,4 +26,33 @@
     font-size: $font-size-1_375;
     font-weight: 600;
   }
+
+  &__currancy-description {
+    color: $soft-blue;
+    font-weight: 300;
+    line-height: $line-height-160;
+  }
+
+  &__wrapper {
+    @include flex-row();
+    justify-content: space-between;
+  }
+
+  &__price-container,
+  &__time-container {
+    @include flex-row();
+    align-items: center;
+    gap: $space-0_375;
+  }
+
+  &__price {
+    color: $cyan;
+    font-size: $font-size-1;
+    font-weight: 600;
+    letter-spacing: $letter-spacing_-03;
+  }
+
+  &__footer {
+    @include flex-column($space-1);
+  }
 }
