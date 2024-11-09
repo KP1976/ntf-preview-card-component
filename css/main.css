@@ -151,7 +151,7 @@ body {
   align-items: center;
   display: flex;
   flex-direction: column;
-  font-family: "Overpass", serif;
+  font-family: "Outfit", serif;
   min-height: 100dvh;
   justify-content: flex-start;
 }
@@ -167,7 +167,6 @@ main {
 
 .attribution {
   bottom: 0;
-  padding: 1rem 0;
   text-align: center;
 }
 .attribution__link {
