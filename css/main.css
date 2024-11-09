@@ -149,6 +149,8 @@ body {
 
 body {
   align-items: center;
+  background-color: hsl(217, 54%, 11%);
+  color: hsl(215, 51%, 70%);
   display: flex;
   flex-direction: column;
   font-family: "Outfit", serif;
@@ -162,6 +164,7 @@ main {
   flex: 1 1 auto;
   flex-direction: column;
   justify-content: center;
+  padding: 0 1.5rem;
   width: 100%;
 }
 

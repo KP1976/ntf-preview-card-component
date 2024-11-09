@@ -6,8 +6,8 @@ body {
 
 body {
   align-items: center;
-  // background-color: $very-dark-blue;
-  // color: $light-grey;
+  background-color: $dark-blue;
+  color: $soft-blue;
   display: flex;
   flex-direction: column;
   font-family: $font-name;
@@ -21,6 +21,6 @@ main {
   flex: 1 1 auto;
   flex-direction: column;
   justify-content: center;
-  // padding: $space-200 $space-300;
+  padding: 0 $space-1_5;
   width: 100%;
 }
