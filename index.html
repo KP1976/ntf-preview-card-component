@@ -22,11 +22,20 @@
   <body>
     <main>
       <article class="ntf-card">
-        <img
-          src="./assets/images/image-equilibrium.jpg"
-          alt="Equilibrium"
-          class="ntf-card__image"
-        />
+        <div class="ntf-card__image-container">
+          <img
+            src="./assets/images/image-equilibrium.jpg"
+            alt="Equilibrium"
+            class="ntf-card__image"
+          />
+          <div class="ntf-card__overlay-image">
+            <img
+              src="./assets/images/icon-view.svg"
+              alt="View"
+              class="ntf-card__view-icon"
+            />
+          </div>
+        </div>
         <div class="ntf-card__content">
           <div class="ntf-card__main">
             <div class="ntf-card__text-container">
@@ -64,7 +73,7 @@
               />
               <p class="ntf-card__author">
                 Creation of
-                <span class="ntf-card__author-name"> Jules Wyvern</span>
+                <a class="ntf-card__author-name" href="#"> Jules Wyvern</a>
               </p>
             </div>
           </div>
