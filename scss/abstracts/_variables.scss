@@ -1,0 +1,48 @@
+// COLORS
+// Primary
+$orange: hsl(25, 97%, 53%);
+
+// Neutral
+$light-grey: hsl(217, 12%, 63%);
+$dark-blue: hsl(213, 19%, 18%);
+$darker-blue: hsl(214, 26%, 12%);
+$very-dark-blue: hsl(216, 12%, 8%);
+$white: hsl(0, 0%, 100%);
+
+// GRADIENTS
+$gradient: radial-gradient(circle at top, $dark-blue 0%, $darker-blue 100%);
+
+// TYPOGRAPHY
+$font-name: "Overpass", serif;
+$font-size-350: 1.75rem;
+$font-size-300: 1.5rem;
+$font-size-200: 1rem;
+$font-size-175: 0.875rem;
+
+$line-height-170: 1.7;
+$line-height-155: 1.55;
+
+$letter-spacing_2_7: 2.7px;
+$letter-spacing_035: 0.35px;
+$letter-spacing_-02: -0.2px;
+$letter-spacing_-01: -0.1px;
+
+// SPACING
+$space-550: 2.75rem;
+$space-500: 2.5rem;
+$space-475: 2.375rem;
+$space-400: 2rem;
+$space-325: 1.625rem;
+$space-300: 1.5rem;
+$space-250: 1.25rem;
+$space-212: 1.063rem;
+$space-200: 1rem;
+$space-175: 0.875rem;
+$space-125: 0.625rem;
+
+// BORDERS
+$border-radius-400: 2rem;
+$border-radius-200: 1rem;
+
+// BREAKPOINTS
+$breakpoint: 408px;
