@@ -55,4 +55,25 @@
   &__footer {
     @include flex-column($space-1);
   }
+
+  &__separator {
+    border-top: 1px solid $light-blue;
+  }
+
+  &__author-container {
+    @include flex-row();
+    align-items: center;
+    gap: $space-1;
+  }
+
+  &__avatar {
+    border: 1px solid $white;
+    border-radius: 50%;
+    height: 2rem;
+    width: 2rem;
+  }
+
+  &__author-name {
+    color: $white;
+  }
 }
