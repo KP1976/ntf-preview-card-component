@@ -6,6 +6,10 @@
   max-width: 21.875rem;
   padding: $space-1_5;
 
+  @include respond-to($breakpoint) {
+    padding-bottom: $space-2;
+  }
+
   &__image {
     border-radius: $border-radius-0_5;
     display: block;
@@ -15,10 +19,18 @@
   &__content,
   &__main {
     @include flex-column($space-1);
+
+    @include respond-to($breakpoint) {
+      @include flex-column($space-1_5);
+    }
   }
 
   &__text-container {
     @include flex-column($space-0_75);
+
+    @include respond-to($breakpoint) {
+      @include flex-column($space-1_125);
+    }
   }
 
   &__currancy-name {
@@ -31,6 +43,11 @@
     color: $soft-blue;
     font-weight: 300;
     line-height: $line-height-160;
+
+    @include respond-to($breakpoint) {
+      font-size: $font-size-1_125;
+      line-height: $line-height-145;
+    }
   }
 
   &__wrapper {
@@ -40,9 +57,12 @@
 
   &__price-container,
   &__time-container {
-    @include flex-row();
+    @include flex-row($space-0_375);
     align-items: center;
-    gap: $space-0_375;
+
+    @include respond-to($breakpoint) {
+      @include flex-row($space-0_5);
+    }
   }
 
   &__price {
@@ -50,6 +70,18 @@
     font-size: $font-size-1;
     font-weight: 600;
     letter-spacing: $letter-spacing_-03;
+
+    @include respond-to($breakpoint) {
+      letter-spacing: $letter-spacing_02;
+    }
+  }
+
+  &__time {
+    letter-spacing: $letter-spacing_-03;
+
+    @include respond-to($breakpoint) {
+      letter-spacing: 0;
+    }
   }
 
   &__footer {
