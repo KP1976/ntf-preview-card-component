@@ -20,14 +20,65 @@
     <title>Frontend Mentor | NFT preview card component</title>
   </head>
   <body>
-    Equilibrium #3429 Our Equilibrium collection promotes balance and calm.
-    0.041 ETH 3 days left Creation of Jules Wyvern
+    <main>
+      <article class="ntf-card">
+        <img
+          src="./assets/images/image-equilibrium.jpg"
+          alt="Equilibrium"
+          class="ntf-card__image"
+        />
+        <div class="ntf-card__content">
+          <div class="ntf-card__main">
+            <div class="ntf-card__text-container">
+              <h1 class="ntf-card__currancy-name">Equilibrium #3429</h1>
+              <p class="ntf-card__currancy-description">
+                Our Equilibrium collection promotes balance and calm.
+              </p>
+            </div>
+            <div class="ntf-card_wrapper">
+              <div class="ntf-card__price-container">
+                <img
+                  src="./assets/images/icon-ethereum.svg"
+                  alt="Ethereum"
+                  class="ntf-card__icon"
+                />
+                <p class="ntf-card__price">0.041 ETH</p>
+              </div>
+              <div class="ntf-card__time-container">
+                <img
+                  src="./assets/images/icon-clock.svg"
+                  alt="Clock"
+                  class="ntf-card__icon"
+                />
+                <p class="ntf-card__time">3 days left</p>
+              </div>
+            </div>
+          </div>
+          <div class="ntf-card__footer">
+            <hr class="ntf-card__separator" />
+            <div class="ntf-card__author-container">
+              <img
+                src="./assets/images/image-avatar.png"
+                alt="Avatar"
+                class="ntf-card__avatar"
+              />
+              <p class="ntf-card__author">
+                Creation of <span> Jules Wyvern</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </article>
+    </main>
 
-    <div class="attribution">
+    <footer class="attribution">
       Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+      <a
+        class="attribution__link"
+        href="https://www.frontendmentor.io?ref=challenge"
+        target="_blank"
         >Frontend Mentor</a
-      >. Coded by <a href="#">Your Name Here</a>.
-    </div>
+      >. Coded by <a class="attribution__link" href="#">Krzysztof Pawłowski</a>.
+    </footer>
   </body>
 </html>

@@ -167,12 +167,9 @@ main {
 
 .attribution {
   bottom: 0;
-  font-size: 0.875rem;
   padding: 1rem 0;
-  position: absolute;
   text-align: center;
 }
 .attribution__link {
-  color: hsl(25, 97%, 53%);
   text-decoration: none;
 }
