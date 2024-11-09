@@ -11,4 +11,19 @@
     display: block;
     object-fit: cover;
   }
+
+  &__content,
+  &__main {
+    @include flex-column($space-1);
+  }
+
+  &__text-container {
+    @include flex-column($space-0_75);
+  }
+
+  &__currancy-name {
+    color: $white;
+    font-size: $font-size-1_375;
+    font-weight: 600;
+  }
 }
